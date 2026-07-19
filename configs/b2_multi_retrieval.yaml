@@ -1,0 +1,28 @@
+version: 1
+baseline: B2
+description: Up to two retrieval rounds without training
+
+model:
+  backend: transformers
+  path_env: MODEL_PATH
+  dtype: bfloat16
+  attention: sdpa
+
+retrieval:
+  enabled: true
+  url_env: RETRIEVER_URL
+  topk: 3
+  max_rounds: 2
+  return_scores: true
+  query_strategy: model_generated_followup
+
+generation:
+  max_new_tokens: 64
+  query_max_new_tokens: 32
+  do_sample: false
+  num_beams: 1
+  seed: 42
+
+runtime:
+  timeout_seconds_per_example: 600
+  save_every_example: true
