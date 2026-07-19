@@ -1,0 +1,24 @@
+name: retriever
+channels:
+  - pytorch
+  - nvidia
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch=2.4.0
+  - torchvision=0.19.0
+  - torchaudio=2.4.0
+  - pytorch-cuda=12.1
+  - faiss-gpu=1.8.0
+  - numpy<2
+  - pip:
+      - "transformers>=4.45,<4.48"
+      - "datasets>=2.21,<4"
+      - pyserini
+      - "fastapi<1"
+      - "uvicorn[standard]<1"
+      - "pydantic<3"
+      - tqdm
+      - requests
