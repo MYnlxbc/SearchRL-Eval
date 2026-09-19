@@ -1,0 +1,27 @@
+{
+  "nq": {
+    "n": 200,
+    "success": 200,
+    "strict_em_percent": 31.0,
+    "token_f1_percent": 41.0,
+    "avg_retrieval_rounds": 0.915,
+    "avg_latency_seconds": 9.174,
+    "invalid_or_no_answer": 12
+  },
+  "hotpotqa": {
+    "n": 200,
+    "success": 200,
+    "strict_em_percent": 23.0,
+    "token_f1_percent": 29.44,
+    "avg_retrieval_rounds": 1.055,
+    "avg_latency_seconds": 10.819,
+    "invalid_or_no_answer": 33
+  },
+  "overall": {
+    "n": 400,
+    "success": 400,
+    "strict_em_percent": 27.0,
+    "token_f1_percent": 35.22,
+    "avg_retrieval_rounds": 0.985
+  }
+}

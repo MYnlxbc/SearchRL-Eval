@@ -1,0 +1,45 @@
+{
+  "musique": {
+    "n": 200,
+    "success": 200,
+    "strict_em_percent": 2.5,
+    "token_f1_percent": 6.79,
+    "avg_retrieval_rounds": 1.185,
+    "avg_latency_seconds": 12.431,
+    "invalid_or_no_answer": 59
+  },
+  "popqa": {
+    "n": 200,
+    "success": 200,
+    "strict_em_percent": 32.5,
+    "token_f1_percent": 35.88,
+    "avg_retrieval_rounds": 1.04,
+    "avg_latency_seconds": 10.051,
+    "invalid_or_no_answer": 23
+  },
+  "2wikimultihopqa": {
+    "n": 200,
+    "success": 200,
+    "strict_em_percent": 15.0,
+    "token_f1_percent": 18.95,
+    "avg_retrieval_rounds": 1.2,
+    "avg_latency_seconds": 12.136,
+    "invalid_or_no_answer": 42
+  },
+  "triviaqa": {
+    "n": 200,
+    "success": 200,
+    "strict_em_percent": 53.5,
+    "token_f1_percent": 60.0,
+    "avg_retrieval_rounds": 0.865,
+    "avg_latency_seconds": 8.939,
+    "invalid_or_no_answer": 11
+  },
+  "overall": {
+    "n": 800,
+    "success": 800,
+    "strict_em_percent": 25.88,
+    "token_f1_percent": 30.4,
+    "avg_retrieval_rounds": 1.073
+  }
+}

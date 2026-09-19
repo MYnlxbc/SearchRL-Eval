@@ -4,14 +4,27 @@
 *.ckpt
 *.safetensors
 *.bin
+*.pyc
+*.swp
 
 backups/
 checkpoints/
+models/
+retrieval/
+datasets/
+cache/
+wandb/
+*.egg-info/
+.ipynb_checkpoints/
+__pycache__/
+Search-R1/
 
 logs/
 runs/
 data/
-datasets/
+
+# Local absolute-path configuration; commit paths.env.example instead.
+configs/paths.env
 
 .env
 *.log

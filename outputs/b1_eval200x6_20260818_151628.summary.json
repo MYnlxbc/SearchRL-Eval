@@ -1,0 +1,16 @@
+{
+  "run_id": "b1_20260818_072915",
+  "baseline": "B1",
+  "input": "manifests/eval200x6_20260818_151628.jsonl",
+  "output": "outputs/b1_eval200x6_20260818_151628.jsonl",
+  "success_count": 1200,
+  "failure_count": 0,
+  "timeout_count": 0,
+  "empty_prediction_count": 0,
+  "duplicate_documents_filtered": 0,
+  "retrieval_stop_reasons": {
+    "max_rounds_reached": 1200
+  },
+  "timeout_seconds_per_example": 300.0,
+  "elapsed_seconds": 7093.3471
+}

@@ -1,0 +1,279 @@
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["May 18, 2018"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_11", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Pyotr Ilyich Tchaikovsky"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_23", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["pituitary glandthe temporal lobesthe pituitary glandtemporal lobes"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_29", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["the Indian Ocean"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_73", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["Hirschman"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_93", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Bart Cummings"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_94", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["Dollree Mapp"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_100", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Super Bowl LII"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_104", "strict_em": false, "token_f1": 0.7499999999999999, "gold_aliases": ["Sleeping with the Past.Sleeping with the Past"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_119", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["R. H. Thomson"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_151", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Joey McIntyreEvander HolyfieldJohn O'HurleyRachel HunterTrista SutterKelly Monaco"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_163", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["2018"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_174", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["October 2003 – present2003"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_203", "strict_em": false, "token_f1": 0.6666666666666666, "gold_aliases": ["Ford"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_210", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["optic chiasm"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_225", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["DJ Lance RockGoobleBrobeeFoofaMunoPlexToodee"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_229", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["May 8, 2018"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_242", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["138"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_259", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Ben Willis"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_262", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["April 12, 2017"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_263", "strict_em": false, "token_f1": 0.5714285714285715, "gold_aliases": ["the U.S. Electoral CollegeU.S. Electoral College"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_316", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Leap of Faith"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_335", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["10"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_379", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["actress Dakota JohnsonDakota Johnson"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_425", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["BTS"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_457", "strict_em": false, "token_f1": 0.045454545454545456, "gold_aliases": ["Steve CarellNev ScharrelMiranda CosgrovePierre CoffinKristen WiigTrey ParkerAndy NymanJulie AndrewsSteve CooganJenny SlateJohn CyganDana GaierAdrian Ciscato"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_495", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Austin, Texas"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_508", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["the 1840s1840s"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_522", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["15 December 2017"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_532", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Linda Davis"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_552", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["altitude"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_590", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Kelly Reno"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_597", "strict_em": false, "token_f1": 1.0, "gold_aliases": ["10 June 1940"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_620", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Inequality of opportunity"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_624", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Thomas Mundy Peterson"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_674", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Charles Sherrington"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_682", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["My Summer Story"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_689", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["1946"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_695", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Jason Paige"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_709", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["the Roman Empire"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_722", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Cliff Richard"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_735", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["therefore signthe therefore sign"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_770", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["LouisianaPennsylvaniaWyomingArkansasNew MexicoWest VirginiaColoradoTexas"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_774", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Malayalam"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_780", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["23 November 1996"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_818", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["DJ Snake featuring Justin BieberJustin BieberSingh H Spot"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_828", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["the second Sunday of March"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_856", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Ark of the Covenant"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_873", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Dean MartinJudy GarlandEthel MermanCarole Landis"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_898", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["DjokovicNovak Djokovic"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_902", "strict_em": false, "token_f1": 0.4, "gold_aliases": ["Saint NicholasFather ChristmasSinterklaasWodan"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_931", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["The Magician"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_939", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["specieshabitat"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_950", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["European colonizationWest Norse sailors"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_970", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["Mount Ossa"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1007", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["KansasFort Riley, Kansas"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1011", "strict_em": false, "token_f1": 0.3333333333333333, "gold_aliases": ["a defense against rain"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1033", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["electron shells"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1051", "strict_em": false, "token_f1": 0.6666666666666666, "gold_aliases": ["New Mexicoin New Mexico"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1055", "strict_em": false, "token_f1": 0.33333333333333337, "gold_aliases": ["Anglican churchThe Church of EnglandAnglican"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1081", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Lana Del Rey"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1112", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["David Joseph Madden"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1114", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Australia"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1131", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Dan StevensAdam Mitchell"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1149", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["2018"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1155", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Los Angeles, California"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1164", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["New York City"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1166", "strict_em": false, "token_f1": 0.14285714285714285, "gold_aliases": ["Mario CuomoJesse JacksonRev. Jesse JacksonNew York Governor Mario CuomoSenator Gary HartGary Hart"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1228", "strict_em": false, "token_f1": 0.33333333333333337, "gold_aliases": ["The Romantics.The RomanticsAmerican rock band The Romantics"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1280", "strict_em": false, "token_f1": 0.4, "gold_aliases": ["Darren McGavinIan Petrella"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1305", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["2001"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1325", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["oneone season"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1330", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["water iceFrozen carbon dioxide"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1364", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Los Angeles"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1395", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["rear-view mirror"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1421", "strict_em": false, "token_f1": 0.3333333333333333, "gold_aliases": ["Big StarTodd GriffinCheap Trick"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1456", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Edward IV of EnglandEdward IV"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1514", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["BrianSarah's brother, Brian"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1517", "strict_em": false, "token_f1": 0.08333333333333333, "gold_aliases": ["I've All I NeedFor What It's WorthWhen I'm in NeedYou Better RunBoldGreedy SoulI Get ByWall of GlassUniversal GleamCome Back to Me"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1528", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Beorn"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1560", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["State College, PA"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1584", "strict_em": false, "token_f1": 0.6666666666666666, "gold_aliases": ["International BaccalaureateThe International Baccalaureate"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1586", "strict_em": false, "token_f1": 0.33333333333333337, "gold_aliases": ["2003at age 18 in 2003"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1593", "strict_em": false, "token_f1": 0.7499999999999999, "gold_aliases": ["August 19, 2016August 19, 2016"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1601", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Ian Holm"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1610", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["John Cooper Clarke"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1614", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["IowaOklahomaNebraskaArkansasNew MexicoKansasColoradoTexasMissouri"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1619", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["architecture"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1624", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Kyla Pratt"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1645", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["#4"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1699", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Ted Danson"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1712", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["2017"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1742", "strict_em": false, "token_f1": 0.4, "gold_aliases": ["eight years8 years"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1746", "strict_em": false, "token_f1": 0.6666666666666666, "gold_aliases": ["Oslo, Norway"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1761", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["1983June 24, 1983"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1774", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["After World War I"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1779", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Michel Debré"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1784", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["seven"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1803", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["at birthbirth"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1808", "strict_em": false, "token_f1": 0.125, "gold_aliases": ["a cleansing ritualmaking Ochá (Saint)"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1847", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Ringo Starr"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1878", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["February 1834"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1892", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["HawaiiAugust 21, 1959"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1908", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["four"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1942", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["July 14, 2016"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1943", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Florida"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1950", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["advisory speed limits"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1966", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Sean McVay"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_1989", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["Julie AdamsLangdon"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2004", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["naval baseswarships"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2031", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["June Gable"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2050", "strict_em": false, "token_f1": 0.3333333333333333, "gold_aliases": ["$2 million in 2011"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2067", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Pete ShilaimonRaymond HarrisDaryl LefeverKevin DownesCindy BondJoe KnoppMickey Liddell"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2101", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Andy Warhol"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2113", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["CírdanGil-galadGaladriel"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2118", "strict_em": false, "token_f1": 0.2222222222222222, "gold_aliases": ["by June 15, 2018June 15, 2018"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2132", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Salt Lake City1996"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2257", "strict_em": false, "token_f1": 0.6666666666666666, "gold_aliases": ["Bee Geesthe Bee Gees"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2269", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["John B. Watson"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2272", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Valinor"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2282", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Charlene Holt"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2291", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["2018"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2315", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["facethe human hands"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2344", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["1998"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2369", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["ChhattisgarhWest BengalGujaratState of TripuraJharkhandState of MizoramMadhya PradeshRajasthan"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2401", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Currington"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2403", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Ceramic artCeramic"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2424", "strict_em": false, "token_f1": 0.5714285714285715, "gold_aliases": ["13 February"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2434", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["March 11, 2018"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2437", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Kevin OlmsteadDavid Goodman"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2448", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["18"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2470", "strict_em": false, "token_f1": 0.16666666666666669, "gold_aliases": ["55–69%"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2473", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["30 March 201827 October 2017"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2478", "strict_em": false, "token_f1": 0.2222222222222222, "gold_aliases": ["ManhattanQueensStaten IslandBrooklynthe Bronx"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2514", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["commercial atat symbolat sign"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2519", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Abbot Suger"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2541", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Ted White"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2543", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Steve Valentine"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2550", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Barry Watson"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2568", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["LookoutBuffalo Lookout"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2569", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Florida"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2570", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["The Beatles"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2579", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["concern for the needythe pilgrimagelifeself-purificationprayer"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2587", "strict_em": false, "token_f1": 0.4, "gold_aliases": ["published in 19941994in 1994"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2671", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["the adrenal medulla"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2710", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Doug PruzanAlex Skuby"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2730", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["ChicagoMiami"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2734", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Dragon Ball GT"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2752", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["sixeight"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2758", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["the 2009 model year1957"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2774", "strict_em": false, "token_f1": 0.4, "gold_aliases": ["Norma's brother, Caleb"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2791", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["erosion"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2796", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["March 16, 2015"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2805", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["from 1967 onwards1967"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2820", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["peninsulapeninsular"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2824", "strict_em": false, "token_f1": 0.7499999999999999, "gold_aliases": ["February 9, 2018February 16, 2018"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2874", "strict_em": false, "token_f1": 0.4, "gold_aliases": ["Louis XIVLouis XV"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2888", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["ChinaJapan and ChinaJapanthe public"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2899", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Special DarkLagerNon-Alcoholic Malt Beverage"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2908", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["three"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2931", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Ruben Cardenas Ramirez"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2943", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["John Smith"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2955", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Tiffany Adams Coyne"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2961", "strict_em": false, "token_f1": 0.4, "gold_aliases": ["Wendy FraserPatrick Swayze"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_2991", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Atlanta HawksCharlotte Hornets"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3004", "strict_em": false, "token_f1": 0.6666666666666666, "gold_aliases": ["thylakoid membranesthe thylakoid membranes"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3049", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["1994"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3069", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Kiss"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3082", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["agriculturePastoral farming"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3127", "strict_em": false, "token_f1": 0.8571428571428571, "gold_aliases": ["Pyeongchang County, South Korea"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3138", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Rodney Crowell"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3143", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["adenosine diphosphate (ADP)"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3176", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["some other elementsiron–nickel alloyan iron–nickel alloy"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3198", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Toby GadBC Jean"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3208", "strict_em": false, "token_f1": 0.8, "gold_aliases": ["James Martin Lafferty"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3215", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["April 7, 2016"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3216", "strict_em": false, "token_f1": 0.5714285714285715, "gold_aliases": ["anti-smacking bill21 June 2007"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3227", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["45%3 to 6%"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3266", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["the right"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3267", "strict_em": false, "token_f1": 0.3333333333333333, "gold_aliases": ["a form of business network"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3284", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["TLC"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3303", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["July 1, 1890"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3312", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["PortugueseSpanish-French"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3345", "strict_em": false, "token_f1": 0.4, "gold_aliases": ["US$66.61 million$66.5 million"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3350", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["ArkansasArkansas Razorbacks"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3368", "strict_em": false, "token_f1": 0.33333333333333337, "gold_aliases": ["international unitsUnited States customary units"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3384", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["19471975195620152017"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3389", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["20022001October 2004"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3403", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["198181"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3406", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["four"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3408", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Simona Halep"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3472", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Glynis Johnsthe actress Glynis Johns"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3479", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Antigonon leptopus"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3480", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Lighthouse CoveNear Tavistock"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3484", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["One For Arthur"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3517", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Jacob Tremblay"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3527", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Zhu Yuanzhang"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3552", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["My Very Best Friend"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3571", "strict_em": false, "token_f1": 0.5714285714285715, "gold_aliases": ["City of Brotherly LoveBrotherly Love"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "nq", "question_id": "test_3595", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["24 November 1949"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_16", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Blair High School"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_28", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Stanley"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_119", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["1912"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_160", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["The Mickey Mouse Club"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_163", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Edwin Landseer LutyensSir Edwin Landseer LutyensEdwin Lutyens"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_182", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["OctoberOct"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_183", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["1191"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_191", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Bill Pullman"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_210", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["U.S. Marshal Rooster CogburnAmericaUSAU.S.the United StatesUnited StatesUS"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_213", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["River Thames"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_237", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Lacey Chabert"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_238", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["74th"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_252", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Chen Zheng"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_258", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Rockland CountyRockland County, New York"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_266", "strict_em": false, "token_f1": 0.3333333333333333, "gold_aliases": ["Nicholas BaconSir Nicholas Bacon"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_269", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Paris-Charles de Gaulle AirportParis"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_292", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Snapper Foster"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_294", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Snapper Foster"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_297", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Katharine Ross"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_303", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Talca Province"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_317", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["The African Queen"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_319", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["The African Queen"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_338", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Fair Trade Services"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_370", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["crystallized the rebellious demand for independence from Great BritainGreat Britain"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_397", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Kim Il - SungKim Il-sung"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_428", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["ease of use and enhanced support for Plug and Play"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_435", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["1599"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_438", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["1600"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_451", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Amy Poehler"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_453", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Amy Poehler"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_457", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["K-League"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_463", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Apple Corps"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_464", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Slade School of ArtThe Slade"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_477", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Fred O'Bannion"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_478", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Fred O'Bannion"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_479", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["918"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_488", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Ahmad Shah Qajar"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_495", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Matt Bennett"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_502", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["LeMat revolverLeMat Revolver"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_519", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["trying to find a potential buyer for all of its operations in FinlandFINfiFinland"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_545", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["13 August 1896"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_549", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["13 August 1896"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_550", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["June 1982"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_557", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["June 1982"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_588", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["physicphysicsPhysicsPhysic"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_594", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["48.8 percent"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_598", "strict_em": false, "token_f1": 0.4, "gold_aliases": ["Norton CountyNorton County, Kansas"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_606", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["James Howard MeredithJames Meredith"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_618", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["for Best Performance by a Leading Actress in a Play in Ondineleading rolestarleading actresslead"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_636", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["a Western District uniformed officer"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_650", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Liam Thomas GarriganLiam Garrigan"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_656", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["September 2013"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_661", "strict_em": false, "token_f1": 0.4, "gold_aliases": ["FirefoxFirefox web browserMozilla Firefox"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_669", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Genesis 3:15"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_671", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Genesis 3:15"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_685", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["323–272 BC"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_708", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["1898 and 1959"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_727", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["551-600"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_762", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["La GouletteTunisRome"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_771", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Andrew Scheer"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_784", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Cordell Walker"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_793", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["406"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_812", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["National Institute of Dramatic ArtNIDA"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_818", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["ATS - 6 (Applications Technology Satellite - 6)ATS-6"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_819", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["ATS - 6 (Applications Technology Satellite - 6)ATS-6"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_823", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Claudia Wells"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_839", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["11", "900"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_846", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["SunniSunni Islam"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_848", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["John Alderton"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_869", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["November 3, 1930"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_871", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Brian Thomas MoynihanBrian Moynihan"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_889", "strict_em": true, "token_f1": 1.0, "gold_aliases": ["Karen Fairchild"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_931", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Jessie Woodrow WilsonJessie Woodrow Wilson Sayre"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_961", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Ramstein-Miesenbach"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_968", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Governor-General of IndiaViceroy of India"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_978", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Greg Oden"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_981", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["Seattle SuperSonicsSonics"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_988", "strict_em": false, "token_f1": 0.5, "gold_aliases": ["John Kukuzelis"]}
+{"baseline": "GRPO_ADAPTIVE", "dataset": "musique", "question_id": "dev_994", "strict_em": false, "token_f1": 0.0, "gold_aliases": ["HaynevilleHayneville, Alabama"]}

@@ -1,0 +1,63 @@
+{
+  "nq": {
+    "n": 200,
+    "success": 200,
+    "extracted_em_percent": 15.0,
+    "token_f1_percent": 27.53,
+    "avg_retrieval_rounds": 0.98,
+    "avg_latency_seconds": 6.816,
+    "invalid_or_no_answer": 0
+  },
+  "musique": {
+    "n": 200,
+    "success": 200,
+    "extracted_em_percent": 3.0,
+    "token_f1_percent": 5.63,
+    "avg_retrieval_rounds": 0.99,
+    "avg_latency_seconds": 7.312,
+    "invalid_or_no_answer": 2
+  },
+  "hotpotqa": {
+    "n": 200,
+    "success": 200,
+    "extracted_em_percent": 22.5,
+    "token_f1_percent": 31.01,
+    "avg_retrieval_rounds": 0.985,
+    "avg_latency_seconds": 7.29,
+    "invalid_or_no_answer": 0
+  },
+  "popqa": {
+    "n": 200,
+    "success": 200,
+    "extracted_em_percent": 11.0,
+    "token_f1_percent": 17.58,
+    "avg_retrieval_rounds": 0.975,
+    "avg_latency_seconds": 6.964,
+    "invalid_or_no_answer": 0
+  },
+  "2wikimultihopqa": {
+    "n": 200,
+    "success": 200,
+    "extracted_em_percent": 8.5,
+    "token_f1_percent": 18.61,
+    "avg_retrieval_rounds": 0.97,
+    "avg_latency_seconds": 7.08,
+    "invalid_or_no_answer": 0
+  },
+  "triviaqa": {
+    "n": 200,
+    "success": 200,
+    "extracted_em_percent": 1.5,
+    "token_f1_percent": 11.93,
+    "avg_retrieval_rounds": 0.965,
+    "avg_latency_seconds": 7.089,
+    "invalid_or_no_answer": 0
+  },
+  "overall": {
+    "n": 1200,
+    "success": 1200,
+    "extracted_em_percent": 10.25,
+    "token_f1_percent": 18.72,
+    "avg_retrieval_rounds": 0.978
+  }
+}

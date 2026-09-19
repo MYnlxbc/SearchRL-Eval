@@ -1,0 +1,150 @@
+{
+  "definition": "Extracted EM is reference-aware exact alias containment: after QA normalization, the verbose prediction must contain a complete gold alias as a token-boundary phrase. Strict EM is reported separately and remains unchanged.",
+  "inputs": [
+    "outputs/b0_eval200x6_20260818_151628.jsonl",
+    "outputs/b1_eval200x6_20260818_151628.jsonl",
+    "outputs/b2_eval200x6_20260818_151628.jsonl"
+  ],
+  "metrics": {
+    "2wikimultihopqa": {
+      "B0": {
+        "n": 200,
+        "strict_em_percent": 7.0,
+        "extracted_em_percent": 8.0,
+        "token_f1_percent": 16.78
+      },
+      "B1": {
+        "n": 200,
+        "strict_em_percent": 1.5,
+        "extracted_em_percent": 9.0,
+        "token_f1_percent": 14.77
+      },
+      "B2": {
+        "n": 200,
+        "strict_em_percent": 2.0,
+        "extracted_em_percent": 10.0,
+        "token_f1_percent": 15.38
+      }
+    },
+    "hotpotqa": {
+      "B0": {
+        "n": 200,
+        "strict_em_percent": 11.0,
+        "extracted_em_percent": 20.0,
+        "token_f1_percent": 21.19
+      },
+      "B1": {
+        "n": 200,
+        "strict_em_percent": 12.5,
+        "extracted_em_percent": 27.5,
+        "token_f1_percent": 23.73
+      },
+      "B2": {
+        "n": 200,
+        "strict_em_percent": 13.5,
+        "extracted_em_percent": 29.0,
+        "token_f1_percent": 24.69
+      }
+    },
+    "musique": {
+      "B0": {
+        "n": 200,
+        "strict_em_percent": 0.5,
+        "extracted_em_percent": 1.0,
+        "token_f1_percent": 3.44
+      },
+      "B1": {
+        "n": 200,
+        "strict_em_percent": 1.5,
+        "extracted_em_percent": 1.5,
+        "token_f1_percent": 4.74
+      },
+      "B2": {
+        "n": 200,
+        "strict_em_percent": 1.5,
+        "extracted_em_percent": 1.5,
+        "token_f1_percent": 4.73
+      }
+    },
+    "nq": {
+      "B0": {
+        "n": 200,
+        "strict_em_percent": 2.0,
+        "extracted_em_percent": 6.0,
+        "token_f1_percent": 7.82
+      },
+      "B1": {
+        "n": 200,
+        "strict_em_percent": 7.0,
+        "extracted_em_percent": 25.5,
+        "token_f1_percent": 19.84
+      },
+      "B2": {
+        "n": 200,
+        "strict_em_percent": 5.0,
+        "extracted_em_percent": 26.5,
+        "token_f1_percent": 18.38
+      }
+    },
+    "popqa": {
+      "B0": {
+        "n": 200,
+        "strict_em_percent": 1.0,
+        "extracted_em_percent": 2.0,
+        "token_f1_percent": 3.02
+      },
+      "B1": {
+        "n": 200,
+        "strict_em_percent": 8.0,
+        "extracted_em_percent": 11.5,
+        "token_f1_percent": 17.24
+      },
+      "B2": {
+        "n": 200,
+        "strict_em_percent": 8.0,
+        "extracted_em_percent": 11.5,
+        "token_f1_percent": 17.79
+      }
+    },
+    "triviaqa": {
+      "B0": {
+        "n": 200,
+        "strict_em_percent": 0.5,
+        "extracted_em_percent": 0.5,
+        "token_f1_percent": 6.45
+      },
+      "B1": {
+        "n": 200,
+        "strict_em_percent": 1.5,
+        "extracted_em_percent": 1.5,
+        "token_f1_percent": 12.09
+      },
+      "B2": {
+        "n": 200,
+        "strict_em_percent": 1.5,
+        "extracted_em_percent": 1.5,
+        "token_f1_percent": 12.45
+      }
+    }
+  },
+  "overall": {
+    "B0": {
+      "n": 1200,
+      "strict_em_percent": 3.67,
+      "extracted_em_percent": 6.25,
+      "token_f1_percent": 9.78
+    },
+    "B1": {
+      "n": 1200,
+      "strict_em_percent": 5.33,
+      "extracted_em_percent": 12.75,
+      "token_f1_percent": 15.4
+    },
+    "B2": {
+      "n": 1200,
+      "strict_em_percent": 5.25,
+      "extracted_em_percent": 13.33,
+      "token_f1_percent": 15.57
+    }
+  }
+}

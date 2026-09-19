@@ -1,0 +1,57 @@
+{
+  "definition": "Strict EM: after QA normalization, the complete prediction must exactly equal at least one complete gold alias. NumPy-style serialized alias arrays are parsed as separate aliases.",
+  "inputs": [
+    "outputs/grpo500_adaptive_eval200x6_20260819_162320.jsonl"
+  ],
+  "metrics": {
+    "2wikimultihopqa": {
+      "GRPO_ADAPTIVE": {
+        "n": 200,
+        "strict_em_percent": 8.5,
+        "token_f1_percent": 18.61
+      }
+    },
+    "hotpotqa": {
+      "GRPO_ADAPTIVE": {
+        "n": 200,
+        "strict_em_percent": 22.5,
+        "token_f1_percent": 31.01
+      }
+    },
+    "musique": {
+      "GRPO_ADAPTIVE": {
+        "n": 200,
+        "strict_em_percent": 3.0,
+        "token_f1_percent": 5.63
+      }
+    },
+    "nq": {
+      "GRPO_ADAPTIVE": {
+        "n": 200,
+        "strict_em_percent": 15.0,
+        "token_f1_percent": 27.53
+      }
+    },
+    "popqa": {
+      "GRPO_ADAPTIVE": {
+        "n": 200,
+        "strict_em_percent": 11.0,
+        "token_f1_percent": 17.58
+      }
+    },
+    "triviaqa": {
+      "GRPO_ADAPTIVE": {
+        "n": 200,
+        "strict_em_percent": 1.5,
+        "token_f1_percent": 11.93
+      }
+    }
+  },
+  "overall": {
+    "GRPO_ADAPTIVE": {
+      "n": 1200,
+      "strict_em_percent": 10.25,
+      "token_f1_percent": 18.72
+    }
+  }
+}

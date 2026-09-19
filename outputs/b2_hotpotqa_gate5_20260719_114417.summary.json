@@ -1,0 +1,9 @@
+{
+  "run_id": "b2_20260719_034419",
+  "baseline": "B2",
+  "input": "/root/autodl-tmp/searchrl_eval/datasets/raw/nq_hotpotqa_train/test.parquet",
+  "output": "outputs/b2_hotpotqa_gate5_20260719_114417.jsonl",
+  "success_count": 5,
+  "failure_count": 0,
+  "elapsed_seconds": 51.4309
+}
