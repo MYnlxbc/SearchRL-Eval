@@ -51,8 +51,14 @@ class EvalRecord:
     gold_answers: List[str]
 
     prediction: str = ""
+    normalized_prediction: str = ""
+    normalized_gold_answers: List[str] = field(default_factory=list)
     retrieved_documents: List[Dict[str, Any]] = field(default_factory=list)
     retrieval_rounds: int = 0
+    followup_query: Optional[str] = None
+    followup_query_similarity: Optional[float] = None
+    retrieval_stop_reason: Optional[str] = None
+    duplicate_documents_filtered: int = 0
 
     latency_seconds: float = 0.0
     retrieval_latency_seconds: float = 0.0
@@ -61,6 +67,10 @@ class EvalRecord:
     prompt_tokens: int = 0
     generated_tokens: int = 0
     peak_gpu_memory_gib: Optional[float] = None
+
+    timeout_seconds_per_example: Optional[float] = None
+    timed_out: bool = False
+    timeout_stage: Optional[str] = None
 
     model_path: str = ""
     retriever_url: Optional[str] = None

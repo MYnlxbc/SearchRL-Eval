@@ -6,6 +6,7 @@ import argparse
 import json
 import os
 import time
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, Iterable, List, Optional, Tuple
@@ -16,6 +17,15 @@ import yaml
 from datasets import load_dataset
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
+from searchrl_eval.eval_utils import (
+    EmptyPredictionError,
+    ExampleDeadline,
+    ExampleTimeoutError,
+    clean_answer_text,
+    normalize_answer_for_metrics,
+    query_similarity,
+    select_unique_documents,
+)
 from searchrl_eval.schema import EvalExample, EvalRecord, append_jsonl
 
 
@@ -274,18 +284,28 @@ class RetrieverClient:
         self,
         query: str,
         round_index: int,
+        topk: Optional[int] = None,
+        timeout_seconds: Optional[float] = None,
     ) -> Tuple[List[Dict[str, Any]], float]:
         started = time.perf_counter()
+        requested_topk = int(topk or self.topk)
+        request_timeout = min(float(timeout_seconds or 120.0), 120.0)
 
-        response = requests.post(
-            self.url,
-            json={
-                "queries": [query],
-                "topk": self.topk,
-                "return_scores": True,
-            },
-            timeout=120,
-        )
+        try:
+            response = requests.post(
+                self.url,
+                json={
+                    "queries": [query],
+                    "topk": requested_topk,
+                    "return_scores": True,
+                },
+                timeout=max(request_timeout, 0.001),
+            )
+        except requests.Timeout as exc:
+            raise ExampleTimeoutError(
+                f"retrieval_round_{round_index}",
+                request_timeout,
+            ) from exc
         response.raise_for_status()
 
         latency = time.perf_counter() - started
@@ -411,6 +431,7 @@ def run_example(
     config: Dict[str, Any],
     generator: LocalGenerator,
     retriever: Optional[RetrieverClient],
+    deadline: ExampleDeadline,
 ) -> Dict[str, Any]:
     documents: List[Dict[str, Any]] = []
     retrieval_rounds = 0
@@ -418,20 +439,51 @@ def run_example(
     generation_latency = 0.0
     prompt_tokens = 0
     generated_tokens = 0
+    followup_query: Optional[str] = None
+    followup_similarity: Optional[float] = None
+    duplicate_documents_filtered = 0
+    retrieval_stop_reason = "retrieval_disabled"
 
-    if baseline in {"B1", "B2"}:
+    retrieval_config = config["retrieval"]
+    topk = int(retrieval_config.get("topk", 3))
+    deduplicate = bool(
+        retrieval_config.get("deduplicate_documents", False)
+    )
+
+    uses_retrieval = baseline in {"B1", "B2", "B2.1"}
+    uses_followup = baseline in {"B2", "B2.1"}
+
+    if uses_retrieval:
         if retriever is None:
-            raise RuntimeError("Retriever is required for B1/B2")
+            raise RuntimeError("Retriever is required for B1/B2/B2.1")
 
+        first_timeout = deadline.remaining("retrieval_round_1_start")
         first_documents, first_latency = retriever.retrieve(
             example.question,
             round_index=1,
+            topk=topk,
+            timeout_seconds=first_timeout,
         )
+        deadline.check("retrieval_round_1_end")
+
+        if deduplicate:
+            first_documents, duplicate_count = select_unique_documents(
+                existing=[],
+                candidates=first_documents,
+                limit=topk,
+            )
+            duplicate_documents_filtered += duplicate_count
+
+        for rank, document in enumerate(first_documents, start=1):
+            document["rank"] = rank
+
         documents.extend(first_documents)
         retrieval_latency += first_latency
         retrieval_rounds = 1
+        retrieval_stop_reason = "max_rounds_reached"
 
-    if baseline == "B2":
+    if uses_followup:
+        deadline.check("followup_generation_start")
         query_text, query_prompt_tokens, query_generated_tokens, query_latency = (
             generator.generate(
                 followup_messages(example.question, documents),
@@ -443,36 +495,105 @@ def run_example(
                 ),
             )
         )
+        deadline.check("followup_generation_end")
 
         prompt_tokens += query_prompt_tokens
         generated_tokens += query_generated_tokens
         generation_latency += query_latency
 
         followup_query = clean_followup_query(query_text)
+        followup_similarity = query_similarity(
+            example.question,
+            followup_query,
+        )
 
-        if followup_query and followup_query.upper() != "NONE":
+        similarity_threshold = retrieval_config.get(
+            "followup_similarity_threshold"
+        )
+
+        if not followup_query:
+            retrieval_stop_reason = "empty_followup_query"
+        elif followup_query.upper() == "NONE":
+            retrieval_stop_reason = "model_none"
+        elif (
+            similarity_threshold is not None
+            and followup_similarity >= float(similarity_threshold)
+        ):
+            retrieval_stop_reason = "duplicate_followup_query"
+        else:
+            candidate_multiplier = int(
+                retrieval_config.get(
+                    "second_round_candidate_multiplier",
+                    1,
+                )
+            )
+            second_topk = topk * max(candidate_multiplier, 1)
+            second_timeout = deadline.remaining(
+                "retrieval_round_2_start"
+            )
             second_documents, second_latency = retriever.retrieve(
                 followup_query,
                 round_index=2,
+                topk=second_topk,
+                timeout_seconds=second_timeout,
             )
-            documents.extend(second_documents)
+            deadline.check("retrieval_round_2_end")
+
             retrieval_latency += second_latency
             retrieval_rounds = 2
 
+            if deduplicate:
+                second_documents, duplicate_count = (
+                    select_unique_documents(
+                        existing=documents,
+                        candidates=second_documents,
+                        limit=topk,
+                    )
+                )
+                duplicate_documents_filtered += duplicate_count
+            else:
+                second_documents = second_documents[:topk]
+
+            for rank, document in enumerate(
+                second_documents,
+                start=1,
+            ):
+                document["rank"] = rank
+
+            documents.extend(second_documents)
+            retrieval_stop_reason = (
+                "max_rounds_reached"
+                if second_documents
+                else "no_unique_documents"
+            )
+
+    deadline.check("answer_generation_start")
     prediction, answer_prompt_tokens, answer_generated_tokens, answer_latency = (
         generator.generate(
             answer_messages(example.question, documents)
         )
     )
+    deadline.check("answer_generation_end")
 
     prompt_tokens += answer_prompt_tokens
     generated_tokens += answer_generated_tokens
     generation_latency += answer_latency
 
+    prediction = clean_answer_text(prediction)
+
     return {
         "prediction": prediction,
+        "normalized_prediction": normalize_answer_for_metrics(prediction),
+        "normalized_gold_answers": [
+            normalize_answer_for_metrics(answer)
+            for answer in example.gold_answers
+        ],
         "retrieved_documents": documents,
         "retrieval_rounds": retrieval_rounds,
+        "followup_query": followup_query,
+        "followup_query_similarity": followup_similarity,
+        "retrieval_stop_reason": retrieval_stop_reason,
+        "duplicate_documents_filtered": duplicate_documents_filtered,
         "retrieval_latency_seconds": retrieval_latency,
         "generation_latency_seconds": generation_latency,
         "prompt_tokens": prompt_tokens,
@@ -501,7 +622,7 @@ def main() -> None:
     )
     baseline = str(config["baseline"]).upper()
 
-    if baseline not in {"B0", "B1", "B2"}:
+    if baseline not in {"B0", "B1", "B2", "B2.1"}:
         raise ValueError(f"Unsupported baseline: {baseline}")
 
     model_env = config["model"].get("path_env", "MODEL_PATH")
@@ -509,8 +630,17 @@ def main() -> None:
 
     retriever_url = os.environ.get("RETRIEVER_URL")
     retrieval_config = config["retrieval"]
+    runtime_config = config.get("runtime") or {}
+    timeout_seconds_per_example = float(
+        runtime_config.get("timeout_seconds_per_example", 300)
+    )
+    if timeout_seconds_per_example <= 0:
+        raise ValueError(
+            "runtime.timeout_seconds_per_example must be positive"
+        )
 
-    run_id = f"{baseline.lower()}_{utc_timestamp()}"
+    baseline_slug = baseline.lower().replace(".", "_")
+    run_id = f"{baseline_slug}_{utc_timestamp()}"
     output_path = args.output or Path("outputs") / f"{run_id}.jsonl"
     summary_path = output_path.with_suffix(".summary.json")
 
@@ -537,6 +667,10 @@ def main() -> None:
 
     success_count = 0
     failure_count = 0
+    timeout_count = 0
+    empty_prediction_count = 0
+    duplicate_documents_filtered_total = 0
+    stop_reason_counts: Counter[str] = Counter()
     total_started = time.perf_counter()
 
     for example in load_examples(
@@ -558,9 +692,15 @@ def main() -> None:
                 if retrieval_config.get("enabled")
                 else None
             ),
+            normalized_gold_answers=[
+                normalize_answer_for_metrics(answer)
+                for answer in example.gold_answers
+            ],
+            timeout_seconds_per_example=timeout_seconds_per_example,
         )
 
         example_started = time.perf_counter()
+        deadline = ExampleDeadline(timeout_seconds_per_example)
 
         try:
             torch.cuda.reset_peak_memory_stats()
@@ -571,10 +711,17 @@ def main() -> None:
                 config,
                 generator,
                 retriever,
+                deadline,
             )
 
             for key, value in result.items():
                 setattr(record, key, value)
+
+            duplicate_documents_filtered_total += (
+                record.duplicate_documents_filtered
+            )
+            if record.retrieval_stop_reason:
+                stop_reason_counts[record.retrieval_stop_reason] += 1
 
             record.latency_seconds = (
                 time.perf_counter() - example_started
@@ -584,8 +731,10 @@ def main() -> None:
                 4,
             )
 
-            if not record.prediction:
-                raise RuntimeError("Empty prediction")
+            if not record.normalized_prediction:
+                raise EmptyPredictionError(
+                    "Generation returned no evaluable answer text"
+                )
 
             record.mark_success()
             success_count += 1
@@ -598,6 +747,12 @@ def main() -> None:
             record.latency_seconds = (
                 time.perf_counter() - example_started
             )
+            if isinstance(exc, ExampleTimeoutError):
+                record.timed_out = True
+                record.timeout_stage = exc.stage
+                timeout_count += 1
+            if isinstance(exc, EmptyPredictionError):
+                empty_prediction_count += 1
             record.mark_error(exc)
             failure_count += 1
             print(
@@ -615,6 +770,13 @@ def main() -> None:
         "output": str(output_path),
         "success_count": success_count,
         "failure_count": failure_count,
+        "timeout_count": timeout_count,
+        "empty_prediction_count": empty_prediction_count,
+        "duplicate_documents_filtered": (
+            duplicate_documents_filtered_total
+        ),
+        "retrieval_stop_reasons": dict(stop_reason_counts),
+        "timeout_seconds_per_example": timeout_seconds_per_example,
         "elapsed_seconds": round(
             time.perf_counter() - total_started,
             4,
