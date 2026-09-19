@@ -1,27 +1,17 @@
-# 本机路径配置
-configs/paths.env
+*.tar.gz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
 
-# 实验产物
-outputs/*
-!outputs/.gitkeep
-logs/*
-!logs/.gitkeep
+backups/
 checkpoints/
-wandb/
+outputs/
+logs/
+runs/
+data/
+datasets/
 
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.pytest_cache/
-.mypy_cache/
-
-# IDE / notebook
-.ipynb_checkpoints/
-.vscode/
-.idea/
-
-# 环境与敏感信息
 .env
-*.pem
-*.key
+*.log
