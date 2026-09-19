@@ -222,7 +222,7 @@ python tools/create_fixed_eval_manifest.py \
   --per-dataset 200
 ```
 
-���要在不同方法之间重新随机抽样，也不要用旧的 smoke50 输出替代固定 manifest 的正式结果。
+要在不同方法之间重新随机抽样，也不要用旧的 smoke50 输出替代固定 manifest 的正式结果。
 
 ## 运行 GRPO smoke 训练
 
@@ -342,4 +342,4 @@ python -m unittest discover -s tests -v
 
 ## 许可证与第三方代码
 
-本仓库自身未提供单独的根目录许可证文件。`vendor/search_r1/` 包含第三方 Search-R1/veRL 代码及其 [`LICENSE`](vendor/search_r1/LICENSE) 和 [`Notice.txt`](vendor/search_r1/Notice.txt)。使用、分发或修改第三方代码前，请阅读并遵守相应许可与署名要求。
+
