@@ -7,7 +7,7 @@
 
 backups/
 checkpoints/
-outputs/
+
 logs/
 runs/
 data/
