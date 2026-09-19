@@ -450,12 +450,12 @@ def run_example(
         retrieval_config.get("deduplicate_documents", False)
     )
 
-    uses_retrieval = baseline in {"B1", "B2", "B2.1"}
-    uses_followup = baseline in {"B2", "B2.1"}
+    uses_retrieval = baseline in {"B1", "B2"}
+    uses_followup = baseline == "B2"
 
     if uses_retrieval:
         if retriever is None:
-            raise RuntimeError("Retriever is required for B1/B2/B2.1")
+            raise RuntimeError("Retriever is required for B1/B2")
 
         first_timeout = deadline.remaining("retrieval_round_1_start")
         first_documents, first_latency = retriever.retrieve(
@@ -622,7 +622,7 @@ def main() -> None:
     )
     baseline = str(config["baseline"]).upper()
 
-    if baseline not in {"B0", "B1", "B2", "B2.1"}:
+    if baseline not in {"B0", "B1", "B2"}:
         raise ValueError(f"Unsupported baseline: {baseline}")
 
     model_env = config["model"].get("path_env", "MODEL_PATH")

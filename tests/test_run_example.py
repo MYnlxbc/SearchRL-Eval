@@ -114,7 +114,7 @@ class RunExampleTests(unittest.TestCase):
 
         result = run_example(
             EXAMPLE,
-            "B2.1",
+            "B2",
             config(),
             generator,
             retriever,
@@ -154,7 +154,7 @@ class RunExampleTests(unittest.TestCase):
 
         result = run_example(
             EXAMPLE,
-            "B2.1",
+            "B2",
             config(),
             generator,
             retriever,
